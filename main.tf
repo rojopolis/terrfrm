@@ -13,7 +13,6 @@ terraform {
 module "k8s_cluster" {
   source  = "app.terraform.io/rojopolis/k8s-cluster/aws"
   version = "0.1.0"
-
   kubernetes_version = "1.14"
   name = "test-cluster"
   private_subnets = ["10.10.2.0/16"]
