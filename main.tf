@@ -15,7 +15,7 @@ module "k8s_cluster" {
   version = "0.1.0"
   kubernetes_version = "1.14"
   name = "test-cluster"
-  private_subnets = ["10.10.2.0/16"]
+  private_subnets = ["10.10.2.0/24"]
   public_subnets = ["10.10.1.0/24"]
   vpc_cidr = "10.10.0.0/16"
 }
