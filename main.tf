@@ -3,7 +3,7 @@ terraform {
     hostname = "app.terraform.io"
     organization = "rojopolis"
     workspaces {
-      name = "k8s"
+      name = "terrfrm"
     }
   }
   required_version = "0.12.20"
