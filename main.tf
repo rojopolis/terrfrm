@@ -12,5 +12,5 @@ terraform {
 resource "aws_s3_bucket" "my-bucket" {}
 
 output "greeting" {
-  value = my-bucket.name
+  value = aws_s3_bucket.my-bucket.name
   }
